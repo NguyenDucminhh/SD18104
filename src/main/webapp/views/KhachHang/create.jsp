@@ -49,14 +49,14 @@
 <body>
 <div class="container animate_animated animate_fadeIn">
     <h1 class="mb-4">Add new User</h1>
-    <form id="customer-form" method="post" action="store">
+    <form id="customer-form" method="post" action="/khach-hang/store">
         <div class="form-group">
             <label for="ma">ID User</label>
-            <input type="text" class="form-control" id="ma" name="ma" required>
+            <input type="text" class="form-control" id="ma" name="ma" required >
         </div>
         <div class="form-group">
             <label for="ten">User Name</label>
-            <input type="text" class="form-control" id="ten" name="ten" required>
+            <input type="text" class="form-control" id="ten" name="ten" >
         </div>
         <div class="form-group">
             <label for="tendem">Middle name</label>
@@ -88,7 +88,7 @@
         </div>
         <div class="form-group">
             <label for="matkhau">Password</label>
-            <input type="password" class="form-control" id="matkhau" name="matkhau" required>
+            <input type="password" class="form-control" id="matkhau" name="matkhau" >
         </div>
         <button type="submit" class="btn btn-submit">New</button>
     </form>
