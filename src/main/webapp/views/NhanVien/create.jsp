@@ -42,7 +42,7 @@
 <body>
 <div class="form-container">
     <h2>Add employee information</h2>
-    <form action="\nhan-vien\store" method="post">
+    <form id="create-form" action="\nhan-vien\store" method="post">
         <label for="ma">ID:</label>
         <input type="text" id="ma" name="ma" required>
 
@@ -85,6 +85,8 @@
 
         <input type="submit" value="Add">
     </form>
+
+
 </div>
 </body>
 </html>

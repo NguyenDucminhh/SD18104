@@ -1,6 +1,6 @@
 package com.example.demo.controllers;
 
-import com.example.demo.DTO.ChucVuDTO;
+import com.example.demo.Request.ChucVuRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +12,7 @@ public class ChucVuController {
         return "ChucVu/create";
     }
     @PostMapping("store")
-    public String chucVuStore(@ModelAttribute ChucVuDTO chucvu)
+    public String chucVuStore(@ModelAttribute ChucVuRequest chucvu)
     {
 
         System.out.println("Mã chức vụ: "+chucvu.getMa() +"\nTen: "+chucvu.getTen());

@@ -1,11 +1,11 @@
-package com.example.demo.DTO;
+package com.example.demo.Request;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
-public class ChucVuDTO {
+public class ChucVuRequest {
     private  String ma;
     private String ten;
 
