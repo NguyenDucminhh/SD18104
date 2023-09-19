@@ -39,14 +39,14 @@
 <body>
 <div class="form-container">
     <h2>Add position information</h2>
-    <form action="chuc-vu/store" method="post">
+    <form action="\chuc-vu\store" method="post">
         <label for="ma">ID:</label>
         <input type="text" id="ma" name="ma" required>
 
         <label for="ten">Name:</label>
         <input type="text" id="ten" name="ten">
 
-        <input type="submit" value="Thêm">
+        <input type="submit" value="Add">
     </form>
 </div>
 </body>

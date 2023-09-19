@@ -39,7 +39,7 @@
 <body>
 <div class="form-container">
     <h2>Add new store</h2>
-    <form action="khach-hang/store" method="post">
+    <form action="/cua-hang/store" method="post">
         <label for="ma">ID:</label>
         <input type="text" id="ma" name="ma" required>
 

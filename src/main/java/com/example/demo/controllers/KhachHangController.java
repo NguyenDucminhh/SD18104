@@ -24,14 +24,15 @@ public class KhachHangController {
                                  @RequestParam("ten") String ten,
                                  @RequestParam("tendem") String tendem,
                                  @RequestParam("ho") String ho,
-                                 @RequestParam("ngaysinh") Date ngaysinh,
+                                 @RequestParam("ngaysinh") LocalDate ngaysinh,
                                  @RequestParam("sdt") String sdt,
                                  @RequestParam("diachi") String diachi,
                                  @RequestParam("thanhpho") String thanhpho,
                                  @RequestParam("quocgia") String quocgia,
                                  @RequestParam("matkhau") String matkhau
     ) {
-        System.out.println("Thêm mới thành công\nMã: " + ma + "" +
+        System.out.println("Thêm mới thành công" +
+                "\nMã: " + ma + "" +
                 "\nTên: " + ten +
                 "\nTên đệm:" + tendem +
                 "\nHọ: "+ ho+
